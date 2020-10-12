@@ -1,0 +1,17 @@
+"npm init"
+"npm install express" - (https://expressjs.com/)
+create app.js
+Для запуска app.js через node - "node app.js"
+Нужно добавить скрипт в package.json - "dev": "node app.js"
+    и запускать по человечески npm run dev
+
+A Step By Step Guide To Using Handlebars With Your Node js App
+https://medium.com/@waelyasmina/a-guide-into-using-handlebars-with-your-express-js-application-22b944443b65
+
+// флаг --save при установке npm пакетов добавляет пакет в "dependencies": {... так по умолчанию 
+// флаг --save-dev - добавляет в "devDependencies": {...
+
+по умолчанию express использует шаблонизатор https://pugjs.org/api/getting-started.html
+
+"npm install nodemon -D" - автоматически перезапускает сервер
+и в скрипте прописать не "dev": "node app.js" а "dev": "nodemon app.js"
