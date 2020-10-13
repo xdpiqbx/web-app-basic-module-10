@@ -15,3 +15,8 @@ https://medium.com/@waelyasmina/a-guide-into-using-handlebars-with-your-express-
 
 "npm install nodemon -D" - автоматически перезапускает сервер
 и в скрипте прописать не "dev": "node app.js" а "dev": "nodemon app.js"
+
+//https://youtu.be/p4XGoF0sFJM?t=2325 - Создание и рендер шаблона!
+//https://youtu.be/p4XGoF0sFJM?t=4200 - Динамические параметры
+
+https://youtu.be/p4XGoF0sFJM?t=4773 - Before js write

@@ -34,9 +34,14 @@ app.get('/products', (request, response) => {
     response.render('products', {products, title: "Products", cssFilename: "products"})
 })
 
+app.get('/product/:productId', (request, response) => { // двоеточие указывает что это динамический паарметр
+    //console.log(request.params) // если вбить в адресую строку /product/asd в консоли получу { productId: 'asd' }
+    // по этому
+    const product = products.find(p => p.id === request.params.productId)
+    response.render('product', {product, title: "Product", cssFilename: "product"})
+})
+
 app.listen(4444, ()=>{
     console.log("App server is running on port 4444")
 }) // give him port number and callback
 
-//https://youtu.be/p4XGoF0sFJM?t=2325 - Создание и рендер шаблона!
-//https://youtu.be/p4XGoF0sFJM?t=4200 - Динамические параметры
