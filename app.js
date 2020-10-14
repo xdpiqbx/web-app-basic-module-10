@@ -2,6 +2,8 @@ const express = require('express')
 const app = express()
 const products = require('./products.json')
 
+const PORT = process.env.PORT || 4444
+
 //Loads the handlebars module
 const exphbs = require('express-handlebars');
 
@@ -41,7 +43,7 @@ app.get('/product/:productId', (request, response) => { // двоеточие у
     response.render('product', {product, title: "Product", cssFilename: "product"})
 })
 
-app.listen(4444, ()=>{
-    console.log("App server is running on port 4444")
+app.listen(PORT, ()=>{
+    console.log(`App server is running on port ${PORT}`)
 }) // give him port number and callback
 

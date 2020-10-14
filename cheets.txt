@@ -19,4 +19,4 @@ https://medium.com/@waelyasmina/a-guide-into-using-handlebars-with-your-express-
 //https://youtu.be/p4XGoF0sFJM?t=2325 - Создание и рендер шаблона!
 //https://youtu.be/p4XGoF0sFJM?t=4200 - Динамические параметры
 
-https://youtu.be/p4XGoF0sFJM?t=4773 - Before js write
+//https://youtu.be/p4XGoF0sFJM?t=4773 - Before js write
